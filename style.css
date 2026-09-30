@@ -12,6 +12,32 @@ body {
   padding-bottom: 40px;
 }
 
+.site-nav {
+  background: #0f4c3a;
+  padding: 12px 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.site-nav a {
+  color: #cde9dc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.site-nav a.active {
+  background: rgba(255,255,255,0.15);
+  color: white;
+}
+
+.site-nav a:hover {
+  color: white;
+}
+
 header {
   background: linear-gradient(135deg, #0f4c3a, #1a7a5e);
   color: white;
